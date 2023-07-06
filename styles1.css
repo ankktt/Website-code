@@ -1,0 +1,110 @@
+.page
+ {width:1300px;
+height:auto;
+border-style:groove;
+}
+
+.header {
+  width:1296px;
+height:150px;
+border-style:groove;
+    background-image:url('images/mybanner.png');
+   background-repeat:no-repeat;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.bodypart
+{ 
+    width:1296px;
+    height:700px;
+border-style:groove;
+}
+
+.bodypart .imagepart
+{ 
+   width:780px;
+   height:680px;
+   border-style:groove;
+   background-image:url('images/front.png');
+   background-repeat:no-repeat;
+   display:inline-block;
+}
+
+.bodypart .imagepart .description
+{color:blue;
+margin-top:500px;
+}
+
+.bodypart .newspart h1
+  {
+   color:green;
+margin-left:100px;
+  }
+
+
+.bodypart .newspart
+{ 
+  width:500px;
+  height:680px;
+border-style:groove;
+float:right;
+}
+
+.bodypart .newspart .news
+ {
+width:490px;
+height:500px;
+border-style:groove;
+}
+
+
+.table-box
+{
+margin:50px auto;
+}
+
+.table-row
+{ 
+  display:table;
+  width:80%;
+margin:10px auto;
+font-family:sans-serief;
+background:transparent;
+padding:12px 0;
+color:555;
+font-size:25px;
+box-shadow:0 1px 4px 0 rgba(0,0,50,0.3)
+}
+
+.table-cell
+{   
+    font-size:150%
+	width:40%;
+	text-align:center;
+}

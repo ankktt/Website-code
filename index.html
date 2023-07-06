@@ -1,0 +1,110 @@
+<html>
+<head>
+
+<link rel="stylesheet" type="text/css" href="styles.css"> </link>
+</head>
+<body>
+
+<div class="page">
+
+    <div class="header">
+    </div>
+
+    <div class="navbar">
+  <a href="Index.html">Home</a>
+  <a href="Institute profile.html">Institute profile</a>
+  <a href="oddevensem.html">Theory Support</a>
+  <a href="Photo Gallery.html">Media Gallery</a>
+  <a href="Contact us.html" class="right">Contact us</a>
+   </div>
+
+
+  <div class="imagepart">
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 5</div>
+  <img src="images/1.jpeg" style="width:100%">
+  <div class="text">Zonal Winners</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 5</div>
+  <img src="images/2.jpeg" style="width:100%">
+  <div class="text">Institute Entrance</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 5</div>
+  <img src="images/3.jpeg" style="width:100%">
+  <div class="text">Annual Function</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 5</div>
+  <img src="images/4.jpeg" style="width:100%">
+  <div class="text">Zonal Winners</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">5 / 5</div>
+  <img src="images/5.jpeg" style="width:100%">
+  <div class="text">Principal,Mr. S.N Singh</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>  
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+</div>
+
+   <div class="newspart">
+    <h1>News and Events</h1>
+    
+   <div class="news">
+       
+      <h2>For Admission related queries,email on enquiry.kmggpbad@gmail.com</h2>
+	   
+	  <h2><a href="Download_scholarship.html"> Click here to download forms for Admission and Scholarship</a></h2>
+	  
+	   <h2><a href="fee description.pdf">Notice regarding Fee Description</a></h2>
+   </div>
+ </div>
+
+
+
+
+
+</body
+</html>
